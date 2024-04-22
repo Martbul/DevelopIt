@@ -3,7 +3,7 @@ import "./Partners.css"
 export default function Partners() {
     return(
         <>
-        <div className="container center">
+        <div className="container center sponsors">
   <div className="images">
     <img
       src="https://leftclick.ai/social-proof-logos/digital-journal-logo.png"

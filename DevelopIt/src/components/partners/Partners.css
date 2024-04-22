@@ -13,5 +13,12 @@
 }
 
 .container .images img{
-width: 10em;
+max-width: 10em;
+height: auto;
+}
+
+@media(max-width:1000px){
+    div .sponsors{
+        display: none;
+    }
 }

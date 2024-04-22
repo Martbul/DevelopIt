@@ -2,8 +2,8 @@ import "./Footer.css"
 export default function Footer(){
     return(
         <>
-        <footer className="footer">
-  <div className="container row">
+        <footer className="footer c1">
+  <div className="row ">
     <div className="footer-col">
       <h4>company</h4>
       <ul>

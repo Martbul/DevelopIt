@@ -10,13 +10,16 @@ import './Home.css'
 export default function Home(){
     return(
         <>
-        <Navigation></Navigation>
+            <div className="home-page">
+                 <Navigation></Navigation>
         <Heading></Heading>
         <Partners></Partners>
         <Whyus></Whyus>
         <Services></Services>
         <BookACall></BookACall>
         <Footer></Footer>
+            </div>
+       
         </>
     )
 }
